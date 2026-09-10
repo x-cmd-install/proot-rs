@@ -22,7 +22,23 @@ x install proot-rs
 - **Latest**: `v0.1.0` (2021-08-20)
 - **Last commit**: 2026-06-08
 - **Assets in release**: 12
-- **Published**: 2021-08-20T03:12:11Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [proot-rs-v0.1.0-aarch64-linux-android.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-aarch64-linux-android.tar.gz) | 619.0 KiB | `native/linux/arm64` |
+| [proot-rs-v0.1.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-aarch64-unknown-linux-gnu.tar.gz) | 611.3 KiB | `native/linux/arm64/glibc` |
+| [proot-rs-v0.1.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-aarch64-unknown-linux-musl.tar.gz) | 647.0 KiB | `native/linux/arm64/musl` |
+| [proot-rs-v0.1.0-arm-linux-androideabi.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-arm-linux-androideabi.tar.gz) | 627.4 KiB | `native/linux/arm` |
+| [proot-rs-v0.1.0-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-armv7-unknown-linux-gnueabihf.tar.gz) | 621.0 KiB | `native/linux/arm/glibc` |
+| [proot-rs-v0.1.0-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-armv7-unknown-linux-musleabihf.tar.gz) | 639.4 KiB | `native/linux/arm/musl` |
+| [proot-rs-v0.1.0-i686-linux-android.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-i686-linux-android.tar.gz) | 750.2 KiB | `native/linux/x86` |
+| [proot-rs-v0.1.0-i686-unknown-linux-gnu.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-i686-unknown-linux-gnu.tar.gz) | 748.2 KiB | `native/linux/x86/glibc` |
+| [proot-rs-v0.1.0-i686-unknown-linux-musl.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-i686-unknown-linux-musl.tar.gz) | 742.0 KiB | `native/linux/x86/musl` |
+| [proot-rs-v0.1.0-x86_64-linux-android.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-x86_64-linux-android.tar.gz) | 720.4 KiB | `native/linux/x64` |
+| [proot-rs-v0.1.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-x86_64-unknown-linux-gnu.tar.gz) | 733.1 KiB | `native/linux/x64/glibc` |
+| [proot-rs-v0.1.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-x86_64-unknown-linux-musl.tar.gz) | 736.7 KiB | `native/linux/x64/musl` |
 
 ## Popularity
 
@@ -57,8 +73,8 @@ Total: **403** lines of code across **12** files in the top 5 languages.
 Install metadata for proot-rs lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `proot-rs` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/proot-rs.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/proot-rs.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:01:35Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:51:21Z._
