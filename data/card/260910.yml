@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.1.0"
   latestRelease: "v0.1.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:47:34Z
+  collectedAt: 2026-09-10T22:09:22Z
 timeline:
   created: 2017-02-12
   lastCommit: 2026-06-08
@@ -86,7 +86,7 @@ total:
   commit: 225
 ---
 path: /home/runner/.x-repo/github.com/proot-me/proot-rs
-collectedAt: 2026-09-10T21:47:39Z
+collectedAt: 2026-09-10T22:09:23Z
 loc:
   C:
     code: 147
