@@ -12,6 +12,18 @@ Rust implementation of PRoot, a ptrace-based sandbox
 x install proot-rs
 ```
 
+## Code insight
+
+Total: **403** lines of code across **12** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| C | 147 | 40 | 28 | 3 |
+| Toml | 119 | 2 | 21 | 5 |
+| Sh | 49 | 7 | 15 | 1 |
+| Dockerfile | 39 | 7 | 12 | 2 |
+| Bash | 29 | 13 | 10 | 1 |
+
 ## Source
 
 - **Upstream**: <https://github.com/proot-me/proot-rs>
@@ -22,6 +34,25 @@ x install proot-rs
 - **Latest**: `v0.1.0` (2021-08-20)
 - **Last commit**: 2026-06-08
 - **Assets in release**: 12
+
+## Popularity
+
+- **Stars**: 160 · **Forks**: 27 · **Open issues**: 36 · **Contributors**: 6
+
+## Totals (cumulative)
+
+- **Releases**: 1 · **Merged PRs**: 30 · **Open PRs**: 0 · **Closed issues**: 23 · **Open issues**: 13 · **Commits**: 225
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 1 | 0 | 0 | 0 | 2 |
+| 360d | 2025-09-15 | 0 | 1 | 0 | 0 | 0 | 2 |
+| last720d | 2024-09-20 | 0 | 1 | 0 | 0 | 2 | 2 |
 
 ## Release assets
 
@@ -40,33 +71,20 @@ x install proot-rs
 | [proot-rs-v0.1.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-x86_64-unknown-linux-gnu.tar.gz) | 733.1 KiB | `native/linux/x64/glibc` |
 | [proot-rs-v0.1.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-x86_64-unknown-linux-musl.tar.gz) | 736.7 KiB | `native/linux/x64/musl` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 160 · **Forks**: 27 · **Open issues**: 36 · **Contributors**: 6
+Reported by **61** distros on [repology.org](https://repology.org/project/proot-rs). **1** are ✅ on the latest upstream release, **56** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 1 · **Merged PRs**: 30 · **Open PRs**: 0 · **Closed issues**: 23 · **Open issues**: 13 · **Commits**: 225
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-15 | 0 | 1 | 0 | 0 | 0 | 2 |
-
-## Code size
-
-Total: **403** lines of code across **12** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| C | 147 | 40 | 28 | 3 |
-| Toml | 119 | 2 | 21 | 5 |
-| Sh | 49 | 7 | 15 | 1 |
-| Dockerfile | 39 | 7 | 12 | 2 |
-| Bash | 29 | 13 | 10 | 1 |
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `5.4.0` | ⚠️ outdated |
+| Debian 14 | `5.4.0` | ⚠️ outdated |
+| Debian 13 | `5.1.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `5.4.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `5.1.0` | ⚠️ outdated |
+| Nix unstable | `5.4.0` | ⚠️ outdated |
+| Void | `5.2.0` | ⚠️ outdated |
+| Alpine edge | `5.4.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -77,4 +95,4 @@ Install metadata for proot-rs lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:51:21Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:48:09Z._
