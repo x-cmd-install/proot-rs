@@ -4,7 +4,7 @@
 
 Rust implementation of PRoot, a ptrace-based sandbox
 
-![proot-rs](https://repo.x-cmd.io/proot-rs.svg)
+[![x-cmd/install — proot-rs Code Quality Monitoring Repo Card](https://repo.x-cmd.io/proot-rs.svg)](https://x-cmd.com/install/proot-rs)
 
 ## Install
 
@@ -47,12 +47,12 @@ Total: **403** lines of code across **12** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-22 | 0 | 1 | 0 | 0 | 0 | 2 |
-| 360d | 2025-09-23 | 0 | 1 | 0 | 0 | 0 | 2 |
-| last720d | 2024-09-28 | 0 | 1 | 0 | 0 | 2 | 2 |
+| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-24 | 0 | 1 | 0 | 0 | 0 | 2 |
+| 360d | 2025-09-25 | 0 | 1 | 0 | 0 | 0 | 2 |
+| last720d | 2024-09-30 | 0 | 1 | 0 | 0 | 2 | 2 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for proot-rs lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:09:06Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:16:34Z._
