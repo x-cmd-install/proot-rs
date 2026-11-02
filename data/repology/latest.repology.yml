@@ -1,169 +1,3 @@
-- repo: parrot
-  subrepo: parrot/main
-  srcname: proot
-  binnames:
-    - proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-1.3
-  status: outdated
-  maintainers:
-    - ivoire@videolan.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: proot
-  binnames:
-    - proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-1.3
-  status: outdated
-  maintainers:
-    - ivoire@videolan.org
-  categories:
-    - misc
-- repo: pld
-  srcname: proot
-  visiblename: proot
-  version: 5.4.0
-  origversion: 5.4.0-3
-  status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: proot
-  binnames:
-    - proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-1.3
-  status: outdated
-  maintainers:
-    - ivoire@videolan.org
-  categories:
-    - utils
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: proot
-  binnames:
-    - proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-1.3
-  status: outdated
-  maintainers:
-    - ivoire@videolan.org
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: proot
-  binnames:
-    - proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-1.3
-  status: outdated
-  maintainers:
-    - ivoire@videolan.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: proot
-  binnames:
-    - proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-1.3
-  status: outdated
-  maintainers:
-    - ivoire@videolan.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: proot
-  binnames:
-    - proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-1.3
-  status: outdated
-  maintainers:
-    - ivoire@videolan.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: proot
-  binnames:
-    - proot
-    - care
-  visiblename: proot
-  version: 5.4.0
-  origversion: 5.4.0-3
-  status: outdated
-  maintainers:
-    - team+salvage@tracker.debian.org
-    - ivoire@videolan.org
-    - tille@debian.org
-  categories:
-    - misc
-- repo: kali_rolling
-  subrepo: main
-  srcname: proot
-  binnames:
-    - proot
-    - care
-  visiblename: proot
-  version: 5.4.0
-  origversion: 5.4.0-3
-  status: outdated
-  maintainers:
-    - team+salvage@tracker.debian.org
-    - ivoire@videolan.org
-    - tille@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: proot
-  binnames:
-    - proot
-    - care
-  visiblename: proot
-  version: 5.4.0
-  origversion: 5.4.0-3
-  status: outdated
-  maintainers:
-    - team+salvage@tracker.debian.org
-    - ivoire@videolan.org
-    - tille@debian.org
-  categories:
-    - misc
-- repo: gnuguix
-  srcname: proot
-  binname: proot
-  visiblename: proot
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: Unprivileged chroot, bind mount, and binfmt_misc
-- repo: nix_unstable
-  srcname: proot
-  visiblename: proot
-  version: 5.5.0
-  origversion: null
-  status: newest
-  summary: User-space implementation of chroot, mount --bind and binfmt_misc
-  maintainers:
-    - ianwookim@gmail.com
-    - makefu@syntax-fehler.de
-    - veprbl@gmail.com
-  licenses:
-    - GPL-2.0-or-later
 - repo: alpine_3_24
   subrepo: community
   srcname: proot
@@ -216,30 +50,6 @@
     - fallback-mnt-alpine@repology
   licenses:
     - GPL-2.0-or-later
-- repo: parabola
-  subrepo: pcr
-  srcname: proot
-  binname: proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-3
-  status: outdated
-  summary: chroot, mount --bind, and binfmt_misc without privilege/setup
-  licenses:
-    - GPL
-- repo: pardus_21
-  subrepo: main
-  srcname: proot
-  binnames:
-    - proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-1.3
-  status: outdated
-  maintainers:
-    - ivoire@videolan.org
-  categories:
-    - misc
 - repo: alpine_edge
   subrepo: community
   srcname: proot
@@ -440,6 +250,22 @@
     - ivoire@videolan.org
   categories:
     - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: proot
+  binnames:
+    - proot
+    - care
+  visiblename: proot
+  version: 5.4.0
+  origversion: 5.4.0-3
+  status: outdated
+  maintainers:
+    - team+salvage@tracker.debian.org
+    - ivoire@videolan.org
+    - tille@debian.org
+  categories:
+    - misc
 - repo: gentoo
   srcname: sys-apps/proot
   visiblename: sys-apps/proot
@@ -467,6 +293,14 @@
   categories:
     - sys-apps
 - repo: gnuguix
+  srcname: proot
+  binname: proot
+  visiblename: proot
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: Unprivileged chroot, bind mount, and binfmt_misc
+- repo: gnuguix
   srcname: proot-static
   binname: proot-static
   visiblename: proot-static
@@ -474,6 +308,22 @@
   origversion: null
   status: outdated
   summary: Unprivileged chroot, bind mount, and binfmt_misc (statically linked)
+- repo: kali_rolling
+  subrepo: main
+  srcname: proot
+  binnames:
+    - proot
+    - care
+  visiblename: proot
+  version: 5.4.0
+  origversion: 5.4.0-3
+  status: outdated
+  maintainers:
+    - team+salvage@tracker.debian.org
+    - ivoire@videolan.org
+    - tille@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: sys-apps/proot
   visiblename: sys-apps/proot
@@ -513,6 +363,19 @@
     - GPL-2
   categories:
     - sys-apps
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: proot
+  binnames:
+    - proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-1vivid1ubuntu1
+  status: outdated
+  maintainers:
+    - ivoire@videolan.org
+  categories:
+    - universe/misc
 - repo: liguros_develop
   srcname: sys-apps/proot
   visiblename: sys-apps/proot
@@ -592,11 +455,161 @@
     - veprbl@gmail.com
   licenses:
     - GPL-2.0-or-later
+- repo: nix_unstable
+  srcname: proot
+  visiblename: proot
+  version: 5.5.0
+  origversion: null
+  status: newest
+  summary: User-space implementation of chroot, mount --bind and binfmt_misc
+  maintainers:
+    - ianwookim@gmail.com
+    - makefu@syntax-fehler.de
+    - veprbl@gmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: parabola
+  subrepo: pcr
+  srcname: proot
+  binname: proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-3
+  status: outdated
+  summary: chroot, mount --bind, and binfmt_misc without privilege/setup
+  licenses:
+    - GPL
+- repo: pardus_21
+  subrepo: main
+  srcname: proot
+  binnames:
+    - proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-1.3
+  status: outdated
+  maintainers:
+    - ivoire@videolan.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: proot
+  binnames:
+    - proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-1.3
+  status: outdated
+  maintainers:
+    - ivoire@videolan.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: proot
+  binnames:
+    - proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-1.3
+  status: outdated
+  maintainers:
+    - ivoire@videolan.org
+  categories:
+    - misc
+- repo: pld
+  srcname: proot
+  visiblename: proot
+  version: 5.4.0
+  origversion: 5.4.0-3
+  status: outdated
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: proot
+  binnames:
+    - proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-1.3
+  status: outdated
+  maintainers:
+    - ivoire@videolan.org
+  categories:
+    - utils
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: proot
+  binnames:
+    - proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-1.3
+  status: outdated
+  maintainers:
+    - ivoire@videolan.org
+  categories:
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: proot
+  binnames:
+    - proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-1.3
+  status: outdated
+  maintainers:
+    - ivoire@videolan.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: proot
+  binnames:
+    - proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-1.3
+  status: outdated
+  maintainers:
+    - ivoire@videolan.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: proot
+  binnames:
+    - proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-1.3
+  status: outdated
+  maintainers:
+    - ivoire@videolan.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: proot
+  binnames:
+    - proot
+    - care
+  visiblename: proot
+  version: 5.4.0
+  origversion: 5.4.0-3
+  status: outdated
+  maintainers:
+    - team+salvage@tracker.debian.org
+    - ivoire@videolan.org
+    - tille@debian.org
+  categories:
+    - misc
 - repo: termux
   srcname: proot
   binname: proot
   visiblename: proot
-  version: 5.1.107.101
+  version: 5.1.107.102
   origversion: null
   status: outdated
   summary: Emulate chroot, bind mount and binfmt_misc for non-root users
@@ -610,19 +623,6 @@
   visiblename: proot
   version: 3.0.2
   origversion: 3.0.2-1
-  status: outdated
-  maintainers:
-    - ivoire@videolan.org
-  categories:
-    - universe/misc
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: proot
-  binnames:
-    - proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-1vivid1ubuntu1
   status: outdated
   maintainers:
     - ivoire@videolan.org
