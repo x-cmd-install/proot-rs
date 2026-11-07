@@ -47,12 +47,12 @@ Total: **403** lines of code across **12** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-10 | 0 | 1 | 0 | 0 | 0 | 2 |
-| 360d | 2025-11-11 | 0 | 1 | 0 | 0 | 0 | 2 |
-| last720d | 2024-11-16 | 0 | 1 | 0 | 0 | 1 | 2 |
+| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-11 | 0 | 1 | 0 | 0 | 0 | 2 |
+| 360d | 2025-11-12 | 0 | 1 | 0 | 0 | 0 | 2 |
+| last720d | 2024-11-17 | 0 | 1 | 0 | 0 | 1 | 2 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Total: **403** lines of code across **12** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **59** distros on [repology.org](https://repology.org/project/proot-rs). **2** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
+Reported by **60** distros on [repology.org](https://repology.org/project/proot-rs). **2** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -95,4 +95,4 @@ Install metadata for proot-rs lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:02:38Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:13:54Z._
