@@ -11,6 +11,48 @@
     - ivoire@videolan.org
   categories:
     - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: proot
+  binnames:
+    - proot
+  visiblename: proot
+  version: 5.1.0
+  origversion: 5.1.0-1.3
+  status: outdated
+  maintainers:
+    - ivoire@videolan.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: proot
+  binnames:
+    - proot
+    - care
+  visiblename: proot
+  version: 5.4.0
+  origversion: 5.4.0-3
+  status: outdated
+  maintainers:
+    - team+salvage@tracker.debian.org
+    - ivoire@videolan.org
+    - tille@debian.org
+  categories:
+    - universe/misc
+- repo: alpine_3_24
+  subrepo: community
+  srcname: proot
+  binname: proot
+  visiblename: proot
+  version: 5.4.0
+  origversion: 5.4.0-r2
+  status: outdated
+  summary: User-space implementation of chroot, mount --bind, and binfmt_misc
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-2.0-or-later
 - repo: debian_14
   subrepo: forky/main
   srcname: proot
@@ -27,45 +69,6 @@
     - tille@debian.org
   categories:
     - misc
-- repo: nix_stable_24_11
-  srcname: proot
-  visiblename: proot
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: User-space implementation of chroot, mount --bind and binfmt_misc
-  maintainers:
-    - ianwookim@gmail.com
-    - makefu@syntax-fehler.de
-    - veprbl@gmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: proot
-  binname: proot
-  visiblename: proot
-  version: 5.4.0
-  origversion: 5.4.0-r2
-  status: outdated
-  summary: User-space implementation of chroot, mount --bind, and binfmt_misc
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_25_05
-  srcname: proot
-  visiblename: proot
-  version: 5.4.0
-  origversion: null
-  status: outdated
-  summary: User-space implementation of chroot, mount --bind and binfmt_misc
-  maintainers:
-    - ianwookim@gmail.com
-    - makefu@syntax-fehler.de
-    - veprbl@gmail.com
-  licenses:
-    - GPL-2.0-or-later
 - repo: alpine_3_24
   subrepo: community
   srcname: proot
@@ -429,6 +432,32 @@
     - w@wdtz.org
   licenses:
     - GPL-2.0-or-later
+- repo: nix_stable_24_11
+  srcname: proot
+  visiblename: proot
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: User-space implementation of chroot, mount --bind and binfmt_misc
+  maintainers:
+    - ianwookim@gmail.com
+    - makefu@syntax-fehler.de
+    - veprbl@gmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_05
+  srcname: proot
+  visiblename: proot
+  version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: User-space implementation of chroot, mount --bind and binfmt_misc
+  maintainers:
+    - ianwookim@gmail.com
+    - makefu@syntax-fehler.de
+    - veprbl@gmail.com
+  licenses:
+    - GPL-2.0-or-later
 - repo: nix_stable_25_11
   srcname: proot
   visiblename: proot
@@ -693,21 +722,8 @@
     - ivoire@videolan.org
   categories:
     - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: proot
-  binnames:
-    - proot
-  visiblename: proot
-  version: 5.1.0
-  origversion: 5.1.0-1.3
-  status: outdated
-  maintainers:
-    - ivoire@videolan.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
   srcname: proot
   binnames:
     - proot
@@ -722,8 +738,8 @@
     - tille@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: proot
   binnames:
     - proot
