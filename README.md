@@ -47,12 +47,12 @@ Total: **403** lines of code across **12** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-18 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-20 | 0 | 1 | 0 | 0 | 0 | 2 |
-| 360d | 2025-11-21 | 0 | 1 | 0 | 0 | 0 | 2 |
-| last720d | 2024-11-26 | 0 | 1 | 0 | 0 | 1 | 2 |
+| 30d | 2026-10-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-21 | 0 | 1 | 0 | 0 | 0 | 2 |
+| 360d | 2025-11-22 | 0 | 1 | 0 | 0 | 0 | 2 |
+| last720d | 2024-11-27 | 0 | 1 | 0 | 0 | 1 | 2 |
 
 ## Release assets
 
@@ -71,21 +71,6 @@ Total: **403** lines of code across **12** files in the top 5 languages.
 | [proot-rs-v0.1.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-x86_64-unknown-linux-gnu.tar.gz) | 733.1 KiB | `native/linux/x64/glibc` |
 | [proot-rs-v0.1.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/proot-me/proot-rs/releases/download/v0.1.0/proot-rs-v0.1.0-x86_64-unknown-linux-musl.tar.gz) | 736.7 KiB | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **60** distros on [repology.org](https://repology.org/project/proot-rs). **2** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `5.4.0` | ⚠️ outdated |
-| Debian 14 | `5.4.0` | ⚠️ outdated |
-| Debian 13 | `5.1.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `5.4.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `5.1.0` | ⚠️ outdated |
-| Nix unstable | `5.5.0` | ✅ latest |
-| Void | `5.2.0` | ⚠️ outdated |
-| Alpine edge | `5.4.0` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for proot-rs lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `proot-rs` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -95,4 +80,4 @@ Install metadata for proot-rs lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:01:19Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T10:49:29Z._
